@@ -1,0 +1,45 @@
+.SideBar{
+    background-color:#49274b; 
+    max-width: 250px;
+    color: white;
+    flex: 0.4;
+    border-top: 1px solid white;    
+}
+.SideBar__header{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 13px;padding-bottom: 10px;
+}
+.userInfo{
+    flex: 1;
+}
+
+.userInfo h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.userInfo h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.FiberManualRecord {
+    padding: 8px;
+    color: red;
+    font-size: 14px;
+    color: green;
+}
+
+.Create{
+    padding: 8px;
+    margin-left: 2%;
+    background-color: white;
+    color: #49274b;
+    border-radius: 999px;
+    font-size: 18px;
+}

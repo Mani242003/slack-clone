@@ -1,0 +1,28 @@
+.SideBarItem{
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.SideBarItem:hover{
+    opacity: 0.8;
+    background-color: #bf7cc3;
+}
+
+.SideBar__icon{
+    padding: 7px;
+    font-size: 18px;
+}
+.SideBarItem h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.SideBar__Item__channelName{
+    padding: 10px  ;
+}
+.SideBar__Item__channelName__hash{
+    padding: 10px ;
+}

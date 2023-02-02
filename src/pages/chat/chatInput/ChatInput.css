@@ -1,0 +1,48 @@
+.chatInput{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.chatInput form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20 ;
+}
+.form__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   position: fixed;
+    bottom: 30px;
+    margin-left: 3%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.chatInput input{
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 25vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.chatInput button {
+   background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: blue;
+    padding: 10px;
+
+}
+
+
